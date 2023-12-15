@@ -42,9 +42,11 @@ const config: HardhatUserConfig = {
       allowUnlimitedContractSize: true,
     },
     pegoMainNet: {
-      url: "https://rpc.pego.io/",
+      url: "http://node1.pegorpc.com/",
       accounts: [PRIVATE_KEY],
       chainId: 20201022,
+      gas: 500000000000,
+      gasPrice: 500000000000,
       allowUnlimitedContractSize: true,
     },
     celoMainNet: {
