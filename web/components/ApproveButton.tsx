@@ -8,7 +8,7 @@ export function ApproveButton({
 }: {
   user: `0x${string}` | undefined;
   amount: number;
-  network: string;
+  network: any;
 }) {
   const { address } = useAccount();
 
