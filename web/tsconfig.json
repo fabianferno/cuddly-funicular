@@ -19,5 +19,5 @@
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/contact.jsx", "utils/constants.ts", "pages/create-project.jsx"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "contracts"]
 }
