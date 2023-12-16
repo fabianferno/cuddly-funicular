@@ -11,6 +11,7 @@ export function ApproveButton({
   network: any;
 }) {
   const { address } = useAccount();
+  console.log("address", network);
 
   const {
     data,

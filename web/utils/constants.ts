@@ -10,20 +10,20 @@ import Lender_pegoMainnet from "@/contracts/deployments/pegoMainNet/Lender.json"
 
 const FXD: any = {
   maticmum: FXD_mumbai,
-  pegoTestnet: FXD_pegoTestnet,
-  pegoMainnet: FXD_pegoMainnet,
+  PEGOTestnet: FXD_pegoTestnet,
+  PEGOMainnet: FXD_pegoMainnet,
 };
 
 const NFT: any = {
   maticmum: NFT_mumbai,
-  pegoTestnet: NFT_pegoTestnet,
-  pegoMainnet: NFT_pegoMainnet,
+  PEGOTestnet: NFT_pegoTestnet,
+  PEGOMainnet: NFT_pegoMainnet,
 };
 
 const Lender: any = {
   maticmum: Lender_mumbai,
-  pegoTestnet: Lender_pegoTestnet,
-  pegoMainnet: Lender_pegoMainnet,
+  PEGOTestnet: Lender_pegoTestnet,
+  PEGOMainnet: Lender_pegoMainnet,
 };
 
 export { FXD, NFT, Lender };

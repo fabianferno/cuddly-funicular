@@ -49,18 +49,6 @@ const config: HardhatUserConfig = {
       gasPrice: 500000000000,
       allowUnlimitedContractSize: true,
     },
-    celoMainNet: {
-      url: "https://forno.celo.org",
-      accounts: [PRIVATE_KEY],
-      chainId: 42220,
-      allowUnlimitedContractSize: true,
-    },
-    celoAlfajores: {
-      url: "https://alfajores-forno.celo-testnet.org",
-      accounts: [PRIVATE_KEY],
-      chainId: 44787,
-      allowUnlimitedContractSize: true,
-    },
     // Network name: PEGO Mainnet Chain ID: 20201022 Currency Symbol: PG RPC node: pegorpc.com node1.pegorpc.com node2.pegorpc.com node3.pegorpc.com
     // sepolia: {
     //   url: SEPOLIA_RPC_URL,

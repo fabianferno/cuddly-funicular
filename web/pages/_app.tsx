@@ -47,8 +47,8 @@ const pegoMainNet = {
     decimals: 18,
   },
   rpcUrls: {
-    public: { http: ["https://rpc.pego.io"] },
-    default: { http: ["https://rpc.pego.io"] },
+    public: { http: ["https://node1.pegorpc.com/"] },
+    default: { http: ["https://node1.pegorpc.com/"] },
   },
   blockExplorers: {
     default: { name: "pegoscan", url: "https://scan.pego.io/" },
